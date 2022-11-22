@@ -13,7 +13,7 @@ import promptSync from 'prompt-sync'
  * @param {number} userNum - number from user
  * @param  {number} spaces - spaces from user
  */
-function hourGlass (userNum: number, spaces: number = 0): void {
+function hourGlass(userNum: number, spaces: number = 0): void {
   let string = ''
   for (let counter: number = 0; counter < spaces; counter++) {
     string += ' '
@@ -32,7 +32,7 @@ function hourGlass (userNum: number, spaces: number = 0): void {
  * The main() function.
  *
  */
-function main (): void {
+function main(): void {
   const prompt = promptSync()
   const userString = prompt('Enter the hourglass length: ')
   console.log('')
